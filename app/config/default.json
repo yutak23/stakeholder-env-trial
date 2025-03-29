@@ -1,0 +1,26 @@
+{
+	"mysql": {
+		"database": "app",
+		"user": "root",
+		"password": "",
+		"host": "127.0.0.1",
+		"connectionLimit": 10
+	},
+	"redis": {
+		"session": {
+			"port": 6379,
+			"host": "127.0.0.1",
+			"db": 1
+		}
+	},
+	"session": {
+		"name": "stakeholder-env-trial.sid",
+		"resave": false,
+		"saveUninitialized": true,
+		"cookie": {
+			"httpOnly": true,
+			"secure": false,
+			"maxAge": 604800000
+		}
+	}
+}
